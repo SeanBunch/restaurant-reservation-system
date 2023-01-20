@@ -7,7 +7,8 @@ function SeatForm({ tables, reservation, changeHandler, submitHandler }) {
     <form onSubmit={submitHandler}>
       <div>
         <h2>
-          Seat Party {reservation.reservation_id} of {reservation.people}{" "}
+          Seat Party {reservation.reservation_id} 
+          {/* of {reservation.people}{" "} */}
         </h2>
       </div>
       <div>

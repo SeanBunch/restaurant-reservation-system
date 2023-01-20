@@ -12,7 +12,6 @@ function SeatReservation() {
     reservation_id: res.reservation_id,
   });
   const history = useHistory();
-
   const changeHandler = (event) => {
     setCurrentTable({
       ...currentTable,
