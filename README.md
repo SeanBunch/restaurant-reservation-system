@@ -53,6 +53,7 @@ The table below describes the existing files in the `./front-end` folder:
 | `./front-end/jest-puppeteer.config.js`             | A configuration file used by the end-to-end tests.                                                     |
 | `./front-end/src/App.js`                           | Defines the root application component.                                                                |
 | `./front-end/src/App.test.js`                      | Contains the tests for the root application component.                                                 |
+| `./front-end/src/dashboard/ChangeDate.js`          | Defines the change date component that changes the dashboroard date.                                   |
 | `./front-end/src/dashboard/Dashboard.js`           | Defines the Dashboard page.                                                                            |
 | `./front-end/src/index.js`                         | The main entry point for the React application.                                                        |
 | `./front-end/src/layout/ErrorAlert.js`             | Defines an error alert component that display only when an error is specified.                         |
@@ -61,6 +62,7 @@ The table below describes the existing files in the `./front-end` folder:
 | `./front-end/src/layout/Menu.js`                   | Defines the menu for the application.                                                                  |
 | `./front-end/src/layout/NotFound.js`               | Defines the "Not found" component that is displayed when no route matches.                             |
 | `./front-end/src/layout/Routes.js`                 | Defines all the routes for the application.                                                            |
+| `./front-end/src/reservations/EditReservations.js` | Defines all the routes for the application.                                                            |
 | `./front-end/src/utils/api.js`                     | Defines the functions used to access the backend API                                                   |
 | `./front-end/src/utils/date-time.js`               | Defines functions to format date and time strings.                                                     |
 | `./front-end/src/utils/format-reservation-date.js` | Defines a function to format the date on a single reservation or an array of reservations.             |
