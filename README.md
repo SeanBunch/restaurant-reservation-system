@@ -6,6 +6,10 @@
 
 Backend controllers and services to connect to, and query, PostgreSQL database via [Knex](http://knexjs.org/).
 
+## Project is hosted on Render [HERE](https://resaurant-reservation-system-front-end.onrender.com). 
+
+The hosting service is on a free account so the initial loadtimes can be slow. After the first render of the site things should work smoothly. 
+
 The table below describes the folders in this repository:
 
 | Folder/file path | Description                                                      |
