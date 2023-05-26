@@ -51,16 +51,7 @@ function Reservation({
         className="btn btn-secondary m-1">
           Edit
         </a>
-
-        {/* {status !== "cancelled" && (
-          <button
-            className="btn btn-danger m-1"
-            data-reservation-id-cancel={reservation_id}
-            onClick={(event) => cancelHandler(event, reservation_id)}
-          >
-            Cancel
-          </button>
-        )} */}
+        
          {status !== "cancelled" ? (
           <button
             className="btn btn-danger m-1"

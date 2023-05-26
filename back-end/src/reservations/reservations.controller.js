@@ -56,7 +56,7 @@ function validDateTime(req, res, next) {
     next({
       status: 400,
       message:
-        "Requested reservation must be within business hours (10:30-20:30), and closed Mondays",
+        "Requested reservation must be within business hours (10:30-20:30), and closed Tuesday",
     });
   } else {
     next();
