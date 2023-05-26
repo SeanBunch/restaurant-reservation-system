@@ -36,7 +36,7 @@ function Dashboard({ date }) {
       
       <h1>Dashboard</h1>
       <div>
-        <h4>Reservations for date</h4>
+        <h4>Date selection</h4>
       </div>
       <ErrorAlert error={reservationsError} />
       <ChangeDate currentDate={date} />
