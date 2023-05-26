@@ -44,8 +44,8 @@ function Reservation({
           </a>
         ) : null}
 
-        <a href={`/reservations/${reservation_id}/edit`}>
-          <button className="btn btn-secondary m-1">Edit</button>
+        <a href={`/reservations/${reservation_id}/edit`} className="btn btn-secondary m-1">Edit
+          {/* <button className="btn btn-secondary m-1">Edit</button> */}
         </a>
 
         {status !== "cancelled" && (
