@@ -12,6 +12,7 @@ function Reservation({
   status,
   loadDashboard,
 }) {
+  console.log("console.log from EditReservation component")
   function cancelHandler(event, reservation_id) {
     event.preventDefault();
     const notification = "Do you want to cancel this reservation?";
