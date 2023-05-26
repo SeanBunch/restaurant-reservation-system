@@ -39,16 +39,20 @@ function Reservation({
         </p>
 
         {status !== "seated" ? (
-          <a href={`/reservations/${reservation_id}/seat`}>
-            <button className="btn btn-info m-1">Seat</button>
+          <a 
+          href={`/reservations/${reservation_id}/seat`} 
+          className="btn btn-info m-1">
+            Seat
           </a>
         ) : null}
 
-        <a href={`/reservations/${reservation_id}/edit`} className="btn btn-secondary m-1">Edit
-          {/* <button className="btn btn-secondary m-1">Edit</button> */}
+        <a 
+        href={`/reservations/${reservation_id}/edit`} 
+        className="btn btn-secondary m-1">
+          Edit
         </a>
 
-        {status !== "cancelled" && (
+        {/* {status !== "cancelled" && (
           <button
             className="btn btn-danger m-1"
             data-reservation-id-cancel={reservation_id}
@@ -56,7 +60,16 @@ function Reservation({
           >
             Cancel
           </button>
-        )}
+        )} */}
+         {status !== "cancelled" ? (
+          <button
+            className="btn btn-danger m-1"
+            data-reservation-id-cancel={reservation_id}
+            onClick={(event) => cancelHandler(event, reservation_id)}
+          >
+            Cancel
+          </button>
+        ) : null}
       </div>
     </div>
   );
