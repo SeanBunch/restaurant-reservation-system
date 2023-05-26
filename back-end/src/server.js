@@ -6,8 +6,6 @@ const knex = require("./db/connection");
 const express = require('express');
 const path = require('path');
 
-// Create an instance of the Express application
-const app = express();
 
 // Configure middleware and routes
 app.use(express.static(path.join(__dirname, 'build')));
