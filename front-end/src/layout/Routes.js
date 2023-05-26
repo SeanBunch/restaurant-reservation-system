@@ -40,7 +40,7 @@ function Routes() {
         <Search />
       </Route>
 
-      <Route path="/reservations/:reservation_id/edit">
+      <Route exact={true} path="/reservations/:reservation_id/edit">
         <EditReservation />
       </Route>
 
