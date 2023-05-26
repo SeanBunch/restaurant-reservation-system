@@ -56,9 +56,9 @@ function Routes() {
         <NewTable />
       </Route>
 
-      <Route>
+      {/* <Route>
         <NotFound />
-      </Route>
+      </Route> */}
     </Switch>
   );
 }
