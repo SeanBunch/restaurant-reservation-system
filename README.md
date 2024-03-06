@@ -1,14 +1,10 @@
 # Restaurant Reservation System
 
 
-
-## Existing files
+## Project is hosted on Render [HERE](https://resaurant-reservation-system-front-end.onrender.com). 
+### *Initial loading of data can take up to 1 minute due to free Render account.  
 
 Backend controllers and services to connect to, and query, PostgreSQL database via [Knex](http://knexjs.org/).
-
-## Project is hosted on Render [HERE](https://resaurant-reservation-system-front-end.onrender.com). 
-
-The hosting service is on a free account so the initial loadtimes can be slow. After the first render of the site things should work smoothly. 
 
 The table below describes the folders in this repository:
 
