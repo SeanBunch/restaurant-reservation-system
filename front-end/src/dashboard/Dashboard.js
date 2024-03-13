@@ -40,18 +40,17 @@ function Dashboard({ date }) {
       </div>
       <ErrorAlert error={reservationsError} />
       <ChangeDate currentDate={date} />
-      
       <div>
         <h2>Reservations on {date}</h2>
         <ReservationList 
           reservations={reservations}
           loadDashboard = {loadDashboard}
-        />
+          />
       </div>
 
       <div>
         <h2>Table Availability</h2>
-        {!tables && <h5 className="load-message">Loading...</h5>}
+        {tables.length === 0 && <div><h1 className="load-message">Loading...</h1><p>The website is hosted on a free render.com account. The backend takes up to 2 minutes to spin up. Thank you for visiting!</p></div>}
           <ErrorAlert error={tablesError}/>
           <TableList 
             tables={tables}
