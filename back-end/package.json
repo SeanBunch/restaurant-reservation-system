@@ -25,8 +25,7 @@
     "test:start:run": "run-s test:drop-database start "
   },
   "keywords": [],
-  "author": "",
-  "license": "UNLICENSED",
+  "author": "Sean Bunch",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^8.2.0",
